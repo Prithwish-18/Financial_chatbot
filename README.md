@@ -1,7 +1,8 @@
 <h1>Financial Chatbot Powered by Gemini API for Stock and Other Investing Assistance</h1>
 
 <p>This intelligent financial assistant is designed to provide seamless stock market insights and investing guidance. Leveraging advanced AI and real-time financial data, it offers a comprehensive toolset for traders, investors, and finance enthusiasts. Subsequently, it is also very useful for beginner investors.</p>
-
+</hr>
+<img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/Output_1.png" alt="Financial chatbot"/>
 <h2>✨ Features </h2>
 <ul>
   <li><strong>Generative AI:</strong> Google’s Gemini API (`gemini-2.0-flash`) for natural language understanding, image analysis, and resource suggestions.</li>
@@ -62,33 +63,57 @@
     </ol>
   </li>
   <li>
-    Download "finbot.py" and "requirements.txt" from this repository. Then keep those files in the 'Scripts' folder in your machine.
+    Download "finbot.py" and "requirements.txt" from this repository. Then keep those files in the 'Scripts' folder in your virtual environment folder you created before.
   </li>
   <li>
-    Then go to this page: <a href="https://aistudio.google.com/apikey">https://aistudio.google.com/apikey</a> and sign in or sign up. Then create a gemini API key and copy the API key code. Therefore paste that code at 'API_key' in "finbot.py" as mention below: 
+    Then go to this page: <a href="https://aistudio.google.com/apikey">https://aistudio.google.com/apikey</a> and sign in or sign up. Then create a gemini API key and copy the API key code. Therefore paste that API key code at 'API_key' in "finbot.py" as mention below: 
     <pre>
       <code>
             # Open finbot.py file
             # At the top of the code there will be a variable called 'API_KEY'
-            import google.generativeai as genai
-            import yfinance as yf
-            import matplotlib.pyplot as plt
-            import pandas as pd
-            import streamlit as st
-            from io import BytesIO
-            from forex_python.converter import CurrencyRates, get_currency_name
-            import re
-            import requests
-            from bs4 import BeautifulSoup
-            from PIL import Image
-            import cv2
-            import numpy as np
-            import os
             # Replace with your actual Gemini API key
-            API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # Replace with your actual Gemini API key
+            API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # paste here
       </code>
     </pre>
   </li>
+  <li>
+    Now open command prompt and follow the steps below: 
+    <ol>
+      <li>Go to 'Scripts' folder in your virtual environment folder by putting this in command prompt: 
+        <pre>
+          <code>
+            cd path/to/Scripts
+          </code>
+        </pre>
+      </li>
+      <li>
+        Activate your virtual environment.
+        <pre>
+          <code>
+            # replace 'env1' with your virtual environment name
+            activate env1
+          </code>
+        </pre>
+      </li>
+      <li>
+        Then install all required dependencies. Put the code below in command prompt: 
+        <pre>
+          <code>
+            pip install -r requirements.txt
+          </code>
+        </pre>
+      </li>
+    </ol>
+  </li>
+  <li>Now in the same command prompt put the code below: 
+    <pre>
+      <code>
+        streamlit run finbot.py
+      </code>
+    </pre>
+    At first time you have to give your any email id and press 'Enter'.
+  </li>
+  <li>Then It will open a local server where the chatbot is shown. You can ask whatever you want know about investment, it will give your desired answers. 🤗</li>
 </ol>
   
 
