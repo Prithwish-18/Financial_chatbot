@@ -115,5 +115,39 @@
   </li>
   <li>Then It will open a local server where the chatbot is shown. You can ask whatever you want know about investment, it will give your desired answers. 🤗</li>
 </ol>
-  
 
+  </br>
+
+<h2>✨ Some examples </h2>
+
+<ul>
+  <li>
+    <strong>Prompt:  <em>"Show the graph of stock price of [ company_name ] for [ duration (1 month, 6 months, 1 year, 5 years, max) ]"</em></strong></br></br>
+  <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_2.png"/></br></br>
+  </li>
+  <li>
+    <strong>Prompt: <em>"I have 4,00,000 rupees and I am a student. So I want to invest that money. Can you guide me which type of investment will be better for me at my situation ?"</em></strong></br></br>
+  <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_3.png"/></br></br>
+  </li>
+  <li>
+    <strong>Prompt: <em>"convert 132 INR to EUR"</em></strong></br></br>
+  <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_4.png"/></br></br>
+  </li>
+  <li>
+    <strong>Graph analysis from a uploaded image.</strong></br></br>
+    <ol>
+      <li>
+        <strong>Uploading the image of the graph</strong></br></br>
+        <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_5.png"/></br></br>
+      </li>
+      <li>
+        <strong>Prompt: <em>"How would you identify a false breakout in a stock price graph, and what indicators would you use to confirm it ?"</em></strong></br></br>
+        <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_6.png"/></br></br>
+      </li>
+      <li>
+        <strong>Reply from the chatbot</strong></br></br>
+        <img src="https://github.com/Prithwish-18/Financial_chatbot/blob/main/images/output_7.png"/></br></br>
+      </li>
+    </ol>
+  </li>
+</ul>
