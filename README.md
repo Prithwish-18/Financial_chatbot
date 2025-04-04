@@ -22,51 +22,73 @@
   <li>
     Create a virtual environment with help of <strong>'venv'</strong> package.
     <ol>
-      <li>venv package is already installed in <strong>Python 3.3</strong> or higher. To you can check if venv packageis installed or not, by putting this code below in your command prompt: 
-        <pre>
-          <code>python -m venv --help</code>
-        </pre> </li>
-      <li>
-        Go to your path of the project and copy the path. Then, put the code below and replace "path\to\your\project" with the copied path of your project in the command prompt:
-        <pre>
-          <code>
-            cd path\to\your\project
-          </code>
-        </pre>
-      </li>
-      <li>
-        Create your virtual environment. By running the code below in command prompt: 
-        <pre>
-          <code>
-            # replace 'env1' with your environment name
-            python -m venv env1
-          </code>
-        </pre>
-      </li>
-      <li>
-        Go to 'Scripts' folder in your environment. Put the code below in command prompt: 
-        <pre>
-          <code>
-            cd Scripts
-          </code>
-        </pre>
-      </li>
-      <li>Activate your virtual environment. </br>Put this code in command prompt: <pre>
-        <code>
-          # put your environment name by replacing 'env1'
-          env1\Scripts\activate env1
-      </li>
+        <li>venv package is already installed in <strong>Python 3.3</strong> or higher. To you can check if venv packageis installed or not, by putting this code below in your command prompt: 
+            <pre>
+            <code>python -m venv --help</code>
+            </pre> </li>
+        <li>
+            Go to your path of the project and copy the path. Then, put the code below and replace "path\to\your\project" with the copied path of your project in the command prompt:
+            <pre>
+            <code>
+                cd path\to\your\project
+            </code>
+            </pre>
+        </li>
+        <li>
+            Create your virtual environment. By running the code below in command prompt: 
+            <pre>
+            <code>
+                # replace 'env1' with your environment name
+                python -m venv env1
+            </code>
+            </pre>
+        </li>
+        <li>
+            Go to 'Scripts' folder in your environment. Put the code below in command prompt: 
+            <pre>
+            <code>
+                cd Scripts
+            </code>
+            </pre>
+        </li>
+        <li>Activate your virtual environment. Put this code in command prompt: 
+          <pre>
+            <code>
+            # put your environment name by replacing 'env1'
+            env1\Scripts\activate env1
+            </code>
+          </pre>
+        </li>
     </ol>
   </li>
   <li>
-    
+    Download "finbot.py" and "requirements.txt" from this repository. Then keep those files in the 'Scripts' folder in your machine.
+  </li>
+  <li>
+    Then go to this page: <a href="https://aistudio.google.com/apikey">https://aistudio.google.com/apikey</a> and sign in or sign up. Then create a gemini API key and copy the API key code. Therefore paste that code at 'API_key' in "finbot.py" as mention below: 
+    <pre>
+      <code>
+            # Open finbot.py file
+            # At the top of the code there will be a variable called 'API_KEY'
+            import google.generativeai as genai
+            import yfinance as yf
+            import matplotlib.pyplot as plt
+            import pandas as pd
+            import streamlit as st
+            from io import BytesIO
+            from forex_python.converter import CurrencyRates, get_currency_name
+            import re
+            import requests
+            from bs4 import BeautifulSoup
+            from PIL import Image
+            import cv2
+            import numpy as np
+            import os
+            # Replace with your actual Gemini API key
+            API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # Replace with your actual Gemini API key
+      </code>
+    </pre>
   </li>
 </ol>
   
-<pre>
-<code>
-# This is a simple Python program
-print("Hello, GitHub!")
-</code>
-</pre>
 
