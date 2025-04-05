@@ -23,7 +23,7 @@
   <li>
     Create a virtual environment with help of <strong>'venv'</strong> package.
     <ol>
-        <li>venv package is already installed in <strong>Python 3.3</strong> or higher. To you can check if venv packageis installed or not, by putting this code below in your command prompt: 
+        <li>venv package is already installed in <strong>Python 3.3</strong> or higher. To you can check if venv package is installed or not, by putting this code below in your command prompt: 
             <pre>
             <code>python -m venv --help</code>
             </pre> </li>
@@ -151,3 +151,4 @@
     </ol>
   </li>
 </ul>
+
