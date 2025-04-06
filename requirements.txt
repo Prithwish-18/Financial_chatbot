@@ -1,0 +1,11 @@
+google-generativeai
+yfinance
+matplotlib
+pandas
+streamlit
+forex-python
+requests
+beautifulsoup4
+Pillow
+opencv-python
+numpy
