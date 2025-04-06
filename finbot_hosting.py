@@ -1,3 +1,6 @@
+# This finbot_hosting.py file is used for hosting purpose only do not use this code.
+
+
 # AIzaSyAbj1f6XUA1YdgqDtELznMNSZ8AND653gY
 import google.generativeai as genai
 import yfinance as yf
