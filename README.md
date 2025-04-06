@@ -63,7 +63,7 @@
     </ol>
   </li>
   <li>
-    Download "finbot.py" and "requirements.txt" in 'src' folder from this repository. Then keep those files in the 'Scripts' folder in your virtual environment folder you created before.
+    Download "finbot.py" and "requirements.txt" in 'source_code' folder from this repository. Then keep those files in the 'Scripts' folder in your virtual environment folder you created before.
   </li>
   <li>
     Then go to this page: <a href="https://aistudio.google.com/apikey">https://aistudio.google.com/apikey</a> and sign in or sign up. Then create a gemini API key and copy the API key code. Therefore paste that API key code at 'API_key' in "finbot.py" as mention below: 
