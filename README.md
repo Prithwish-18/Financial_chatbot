@@ -1,4 +1,4 @@
-<h1>Financial Chatbot Powered by Gemini API for Stock and Other Investing Assistance</h1>
+<h1>GenAI-Powered Financial Assistant for Better Investing Decisions</h1>
 
 <p>This intelligent financial assistant is designed to provide seamless stock market insights and investing guidance. Leveraging advanced AI and real-time financial data, it offers a comprehensive toolset for traders, investors, and finance enthusiasts. Subsequently, it is also very useful for beginner investors.</p>
 </hr>
