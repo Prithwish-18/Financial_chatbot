@@ -1,3 +1,7 @@
+# this code is only for hosting purpose do not use it for run locally. For that, use "finbot.py" in 'src' folder in same repositoty
+
+
+
 # AIzaSyAbj1f6XUA1YdgqDtELznMNSZ8AND653gY
 import google.generativeai as genai
 import yfinance as yf
@@ -15,8 +19,8 @@ import numpy as np
 import os
 
 
-# Replace with your actual Gemini API key
-API_KEY = "AIzaSyAbj1f6XUA1YdgqDtELznMNSZ8AND653gY"  # Replace with your actual Gemini API key
+
+API_KEY = os.getenv("GEMINI_API_KEY") 
 genai.configure(api_key=API_KEY)
 
 # Select the Gemini model
