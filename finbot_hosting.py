@@ -19,7 +19,7 @@ import os
 
 
 # Replace with your actual Gemini API key
-API_KEY = "AIzaSyCVZqrI2TimQbqUy5QDE2kC4-skhDt3Au8"  # Set this in your hosting platform
+API_KEY = "AIzaSyAuZCY01D6RshxIWcKlVGvSDp2H-hdRT8w"  # Set this in your hosting platform
 genai.configure(api_key=API_KEY)
 
 # Select the Gemini model
